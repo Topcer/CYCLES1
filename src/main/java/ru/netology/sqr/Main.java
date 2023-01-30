@@ -3,12 +3,12 @@ package ru.netology.sqr;
 public class Main {
     public static void main(String[] args) {
 
-        int x = 250;
-        int y = 300;
+        int first = 250;
+        int second = 300;
 
         SqrtService service = new SqrtService();
 
-        int result = service.calcSqrt(x, y);
+        int result = service.calcSqrt(first, second);
 
         System.out.println("Найдено корней: " + result);
 
